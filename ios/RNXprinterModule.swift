@@ -1,14 +1,14 @@
 //
-//  RNModuleTemplateModule.swift
-//  RNModuleTemplateModule
+//  RNXprinterModule.swift
+//  RNXprinterModule
 //
-//  Copyright © 2021 Alex Demchenko. All rights reserved.
+//  Copyright © 2022 Tam Nguyen. All rights reserved.
 //
 
 import Foundation
 
-@objc(RNModuleTemplateModule)
-class RNModuleTemplateModule: NSObject {
+@objc(RNXprinterModule)
+class RNXprinterModule: NSObject {
   @objc
   func constantsToExport() -> [AnyHashable : Any]! {
     return ["count": 1]
